@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--! ============== CSS Linkler =================== -->
+    <link rel="stylesheet" href="./css/mother-css/mother-nav.css">
+    <link rel="stylesheet" href="./css/mother-css/mother-banner.css">
+    <!--! ============== Bootstrap Icons =================== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>LankonFarms</title>
+</head>
+
+<body>
+    <header>
+        <!--todo ================= NavBar (Notebook, PC və daha böyük ekranlar)======================= -->
+        <nav class="big-nav">
+            <!--! ================= Nav LOGO ======================= -->
+            <div class="nav-logo">
+                <a href="#">
+                    <img src="./logo/LankonFarms-icon.png" alt="">
+                </a>
+            </div>
+            <!--! ================= Nav options ======================= -->
+            <ul class="nav-ul">
+                <li><a href="#">Məhsullar</a></li>
+                <li><a href="#">Xidmətlər</a></li>
+                <li><a href="#">Partnyorlar</a></li>
+                <li><a href="#">Favorilər <i class="bi bi-bag-heart"></i></a></li>
+                <li><a href="#">Səbət <i class="bi bi-cart3"></i></a></li>
+                <li><a href="#">Profil <i class="bi bi-person-circle"></i></a></li>
+            </ul>
+        </nav>
+
+        <!--todo ================= NavBar (Telefon, Tablet ve daha kiçik ekranlar )======================= -->
+        <nav class="small-nav">
+            <!--! ================= Nav Hamburger menu ======================= -->
+            <ul class="small-nav-hamburger">
+                <li><i class="bi bi-list"></i></li>
+            </ul>
+            <!--! ================= Nav LOGO ======================= -->
+            <div class="small-nav-logo">
+                <a href="#">
+                    <img src="./logo/LankonFarms-icon.png" alt="">
+                </a>
+            </div>
+            <!--! ================= Nav Profile ======================= -->
+            <ul class="small-nav-profil">
+                <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--todo ========================= Banner hisse ============================================= -->
+    <section class="banner">
+        <!-- ! =============== banner sol teref ============ -->
+        <div class="banner-left">
+            <pre><h1>Sizdə artıq <span>təbii</span>
+məhsullar almaq istəyirsiniz?</h1></pre>
+
+            <form action="#">
+                <input type="search" placeholder="Məhsul axtarışı...">
+                <input type="submit" value="Axtar">
+            </form>
+        </div>
+        <!-- ! =============== banner sağ teref ============ -->
+        <div class="banner-right">
+            <div class="slider-container">
+                <button class="prev slide-bt" onclick="changeSlide(-1)">&#10094;</button>
+                <div class="slider">
+                    <!-- ! =============== slide 1 ============ -->
+                    <div class="slide">
+                        <img src="./image/feyxoa.jpg" alt="Məhsul 1">
+                        <h1>Lənkəran feyxoası:</h1>
+                        <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, in! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati cum laudantium aperiam vitae quisquam pariatur ratione sunt culpa. Blanditiis illum totam vero officiis unde commodi, ipsam harum debitis voluptas fugit</pre>
+                        <h2><s style="color: red;">0.90 AZN</s> 0.50 AZN \ kq</h2>
+                        <h3>20% endirim</h3>
+                        <ul>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        </ul>
+                        <h4>Satıcı: Akif Vəlizadə</h4>
+                        <button class="more-info-button">Ətraflı</button>
+                    </div>
+                    <!-- ! =============== slide 2 ============ -->
+                    <div class="slide">
+                        <img src="./image/kartof.jpg" alt="Məhsul 1">
+                        <h1>Gədəbəy kartofu:</h1>
+                        <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, in! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati cum laudantium aperiam vitae quisquam pariatur ratione sunt culpa. Blanditiis illum totam vero officiis unde commodi, ipsam harum debitis voluptas fugit</pre>
+                        <h2><s style="color: red;">0.90 AZN</s> 0.50 AZN \ kq</h2>
+                        <h3>20% endirim</h3>
+                        <ul>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        </ul>
+                        <h4>Satıcı: Akif Vəlizadə</h4>
+                        <button class="more-info-button">Ətraflı</button>
+                    </div>
+                    <!-- ! =============== slide 3 ============ -->
+                    <div class="slide">
+                        <img src="./image/limon.jpg" alt="Məhsul 1">
+                        <h1>Lənkəran limonu:</h1>
+                        <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, in! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati cum laudantium aperiam vitae quisquam pariatur ratione sunt culpa. Blanditiis illum totam vero officiis unde commodi, ipsam harum debitis voluptas fugit</pre>
+                        <h2><s style="color: red;">0.90 AZN</s> 0.50 AZN \ kq</h2>
+                        <h3>20% endirim</h3>
+                        <ul>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="#"><i class="bi bi-star-fill"></i></a></li>
+                        </ul>
+                        <h4>Satıcı: Akif Vəlizadə</h4>
+                        <button class="more-info-button">Ətraflı</button>
+                    </div>
+                </div>
+                <button class="next slide-bt" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./javascript/mother-javascript/mother-banner.js"></script>
+</body>
+
+</html>
