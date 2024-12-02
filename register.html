@@ -16,19 +16,20 @@
 
         <div class="form-container sign-up">
             <form action="#">
-                <h1>Creat Account</h1>
+                <h1>Hesab Yarat</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email for registeration</span>
-                <input type="text" placeholder="Ad">
-                <input type="text" placeholder="Soyad">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Şifrə">
-                <input type="text" placeholder="FIN Kod" maxlength="7">
-                <select name="rayonlar" id="rayonlar">
+                <input type="text" placeholder="Ad" required>
+                <input type="text" placeholder="Soyad" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Şifrə" required>
+                <input type="tel" name="" id="" placeholder="Telefon nömrə" required>
+                <input type="text" placeholder="FIN Kod" maxlength="7" required>
+                <select name="rayonlar" id="rayonlar" required>
                     <option value="" disabled selected>Rayon seçin</option>
                     <option value="absheron">Abşeron</option>
                     <option value="aghjabadi">Ağcabədi</option>
@@ -86,27 +87,25 @@
                     <option value="zaqatala">Zaqatala</option>
                     <option value="zardab">Zərdab</option>
                 </select>
-                <input type="text" placeholder="Şəhər/qəsəbə">
-                <input type="tel" name="" id="" placeholder="Telefon nömrə">
-                
-                <button>Sign Up</button>
+                <input type="text" placeholder="Şəhər/qəsəbə" required>
+                <button>Tamamla</button>
             </form>
         </div>
 
 
         <div class="form-container sign-in">
             <form action="#">
-                <h1>Sign In</h1>
+                <h1>Hesaba Giriş</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
-                <span>or use your email password</span>
+                <span>Email və şifrənizi daxil edin</span>
                 <input type="email" placeholder="Email adresinizi daxil edin">
                 <input type="password" placeholder="Şifrenizi daxil edin">
-                <a href="#">Forget Your Password?</a>
-                <button>Sign In</button>
+                <a href="#">Şifrəni unutmusunuz?</a>
+                <button>Daxil ol</button>
             </form>
         </div>
 
@@ -114,14 +113,20 @@
         <div class="toggle-container">
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
-                    <h1>Welcome Back!</h1>
-                    <p>Enter your personal details to use all of site features</p>
-                    <button class="hidden" id="login">Sign In</button>
+                    <div class="toggle-img">
+                        <img src="./logo/LankonFarms-icon.png" alt="">
+                    </div>
+                    <h1>Hesabınız var?</h1>
+                    <p>Saytın bütün xüsusiyyətlərindən istifadə etmək üçün hesaba daxil olun</p>
+                    <button class="hidden" id="login">Daxil ol</button>
                 </div>
                 <div class="toggle-panel toggle-right">
-                    <h1>Hello, Friend!</h1>
-                    <p>Register with your personal details to use all of site features</p>
-                    <button class="hidden" id="register">Sign Up</button>
+                    <div class="toggle-img">
+                        <img src="./logo/LankonFarms-icon.png" alt="">
+                    </div>
+                    <h1>Xoş gəlmisiniz!</h1>
+                    <p>Əgər hesabınız mövcud deyilsə indi qeydiyyatdan keçin</p>
+                    <button class="hidden" id="register">Qeydiyyat</button>
                 </div>
             </div>
         </div>
