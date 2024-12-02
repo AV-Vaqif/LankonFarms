@@ -5,17 +5,26 @@
     box-sizing: border-box;
     
 }
+body{
+    width: 100%;
+    height: 100vh;
+}
 
 header{
     width: 100%;
-    height: 100px;
+    height: 12%;
+    margin: auto;
+    background-color: #66b40c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*! =========================== Böyük navbar ================================================ */
 
 header .big-nav{
-    width: 100%;
+    width: 95%;
     height: 100%;
-    background-color: #66b40c;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,7 +87,7 @@ header .big-nav .nav-ul li a i{
 /*! =========================== Kiçik NavBar ================================================ */
 
 header .small-nav{
-    width: 100%;
+    width: 95%;
     height: 100%;
     background-color: #66b40c;
     display: none;
@@ -87,7 +96,6 @@ header .small-nav{
 
 header .small-nav .small-nav-hamburger {
     width: 3em;
-    margin-left: 10px;
 }
 
 header .small-nav .small-nav-hamburger li{
@@ -116,8 +124,7 @@ header .small-nav .small-nav-logo a img{
 /* * =================== Profil (Sağ hisse) =================== */
 
 header .small-nav .small-nav-profil{
-    width: 5em;
-    
+    width: 3em;
 }
 
 header .small-nav .small-nav-profil li{

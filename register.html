@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ! CSS -->
+    <link rel="stylesheet" href="./css/register-css/register.css">
+    <!-- ! FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container" id="container">
+
+
+        <div class="form-container sign-up">
+            <form action="#">
+                <h1>Creat Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registeration</span>
+                <input type="text" placeholder="Ad">
+                <input type="text" placeholder="Soyad">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Şifrə">
+                <input type="text" placeholder="FIN Kod" maxlength="7">
+                <select name="rayonlar" id="rayonlar">
+                    <option value="" disabled selected>Rayon seçin</option>
+                    <option value="absheron">Abşeron</option>
+                    <option value="aghjabadi">Ağcabədi</option>
+                    <option value="aghdam">Ağdam</option>
+                    <option value="aghdash">Ağdaş</option>
+                    <option value="aghstafa">Ağstafa</option>
+                    <option value="aghsu">Ağsu</option>
+                    <option value="astara">Astara</option>
+                    <option value="baku">Bakı</option>
+                    <option value="babek">Babək</option>
+                    <option value="balaken">Balakən</option>
+                    <option value="bardeh">Bərdə</option>
+                    <option value="beylagan">Beyləqan</option>
+                    <option value="bilasuvar">Biləsuvar</option>
+                    <option value="dashkasan">Daşkəsən</option>
+                    <option value="fuzuli">Füzuli</option>
+                    <option value="goychay">Göyçay</option>
+                    <option value="goygol">Göygöl</option>
+                    <option value="goranboy">Goranboy</option>
+                    <option value="gadabay">Gədəbəy</option>
+                    <option value="hajigabul">Hacıqabul</option>
+                    <option value="imisli">İmişli</option>
+                    <option value="ismayilli">İsmayıllı</option>
+                    <option value="kalbajar">Kəlbəcər</option>
+                    <option value="kurdamir">Kürdəmir</option>
+                    <option value="lankaran">Lənkəran</option>
+                    <option value="lerik">Lerik</option>
+                    <option value="masalli">Masallı</option>
+                    <option value="mingachevir">Mingəçevir</option>
+                    <option value="naftalan">Naftalan</option>
+                    <option value="neftchala">Neftçala</option>
+                    <option value="oguz">Oğuz</option>
+                    <option value="qabala">Qəbələ</option>
+                    <option value="qakh">Qax</option>
+                    <option value="qazakh">Qazax</option>
+                    <option value="qobustan">Qobustan</option>
+                    <option value="quba">Quba</option>
+                    <option value="qusar">Qusar</option>
+                    <option value="saatli">Saatlı</option>
+                    <option value="sabirabad">Sabirabad</option>
+                    <option value="salyan">Salyan</option>
+                    <option value="samaxi">Şamaxı</option>
+                    <option value="shamkir">Şəmkir</option>
+                    <option value="shirvan">Şirvan</option>
+                    <option value="sheki">Şəki</option>
+                    <option value="shusha">Şuşa</option>
+                    <option value="siyazan">Siyəzən</option>
+                    <option value="sumgayit">Sumqayıt</option>
+                    <option value="tare">Tərtər</option>
+                    <option value="tovuz">Tovuz</option>
+                    <option value="uja">Ucar</option>
+                    <option value="yardimli">Yardımlı</option>
+                    <option value="yevla">Yevlax</option>
+                    <option value="zangilan">Zəngilan</option>
+                    <option value="zaqatala">Zaqatala</option>
+                    <option value="zardab">Zərdab</option>
+                </select>
+                <input type="text" placeholder="Şəhər/qəsəbə">
+                <input type="tel" name="" id="" placeholder="Telefon nömrə">
+                
+                <button>Sign Up</button>
+            </form>
+        </div>
+
+
+        <div class="form-container sign-in">
+            <form action="#">
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email password</span>
+                <input type="email" placeholder="Email adresinizi daxil edin">
+                <input type="password" placeholder="Şifrenizi daxil edin">
+                <a href="#">Forget Your Password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./javascript/register-javascript/register.js"></script>
+</body>
+</html>
